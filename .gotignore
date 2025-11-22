@@ -1,0 +1,20 @@
+# OS関連
+.DS_Store
+Thumbs.db
+
+# Node / npm関連（もし使う場合）
+node_modules/
+npm-debug.log
+
+# ビルドやキャッシュ
+dist/
+build/
+.cache/
+
+# 環境設定
+.env
+*.local
+
+# IDE関連
+.vscode/
+.idea/
