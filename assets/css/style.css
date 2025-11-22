@@ -149,3 +149,29 @@ section {
 @keyframes fadeInSection {
     to { opacity: 1; }
 }
+
+/* モバイル対応 */
+@media screen and (max-width: 480px) {
+  *{
+    box-sizing: border-box;
+  }
+  body {
+    padding: 10px;
+  }
+  main,
+  .info-box,
+  .word-list,
+  footer {
+    max-width: 100%;
+    padding: 12px;
+    font-size: 0.95em;
+  }
+  h1,
+  h2 {
+    font-size: 1.2em;
+    line-height: 1.3;
+  }
+  footer {
+    font-size: 0.85em;
+  }
+}
